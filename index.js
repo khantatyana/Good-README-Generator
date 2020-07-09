@@ -92,75 +92,75 @@ async function userPrompts() {
         ]);
 
         writeFileAsync('README.md',`
-        # ${userInput.title}
+# ${userInput.title}
 
-        ${userInput.badge}
-        
-        ## Description
+${userInput.badge}
 
-        ${userInput.description}
-                
-        '''sh
-        node index.js
-        '''
+## Description
 
-        ## Contents
+${userInput.description}
         
-        ${userInput.contents}
-        
-        ## Installation 
+'''sh
+node index.js
+'''
 
-        ${userInput.installation}
-        
-        ## Author
-        
-        ${userInput.author}
-        
-        ## Project homepage
-        
-        [GitHub page](${userInput.homepage})
-        
-        ## Usage
-        
-        ${userInput.usage}
-        
-        ## License name
-        
-        ${userInput.licenseName}
-        
-        ## License URL
-        
-        ${userInput.licenseURL}
-        
-        ## Contributing
-        
-        ${userInput.contributing}
-        
-        ## Tests
-        
-        ${userInput.tests}
-        
-        ## GitHub username
+## Contents
 
-        [GitHub profile](https://github.com/${userInput.username})
-        
-        ## User GitHub profile picture
-        
-        ![Picture](${userInput.picture})
-        
-        ## User GitHub email
+${userInput.contents}
 
-        ${userInput.email}
-        
-        ## User story:
-        
-        
-        AS A developer
-        
-        I WANT a README generator
-        
-        SO THAT I can easily put together a good README for a new project
-        `
+## Installation 
+
+${userInput.installation}
+
+## Author
+
+${userInput.author}
+
+## Project homepage
+
+[GitHub page](${userInput.homepage})
+
+## Usage
+
+${userInput.usage}
+
+## License name
+
+${userInput.licenseName}
+
+## License URL
+
+${userInput.licenseURL}
+
+## Contributing
+
+${userInput.contributing}
+
+## Tests
+
+${userInput.tests}
+
+## GitHub username
+
+[GitHub profile](https://github.com/${userInput.username})
+
+## User GitHub profile picture
+
+![Picture](${userInput.picture})
+
+## User GitHub email
+
+${userInput.email}
+
+## User story:
+
+
+AS A developer
+
+I WANT a README generator
+
+SO THAT I can easily put together a good README for a new project
+`
         );
     
     } 
