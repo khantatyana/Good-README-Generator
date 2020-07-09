@@ -98,6 +98,9 @@ ${userInput.badge}
 
 ## Description
 
+[![Package name](https://img.shields.io/npm/v/npm@6.14.4?color=blue
+    )](https://img.shields.io/npm/v/npm@6.14.4?color=blue)
+
 ${userInput.description}
         
 '''sh
@@ -157,7 +160,7 @@ ${userInput.tests}
 
 ## User GitHub email
 
-${userInput.email}
+[email](${userInput.email})
 
 `
         );
