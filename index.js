@@ -103,6 +103,11 @@ ${userInput.description}
 '''sh
 node index.js
 '''
+## User story:
+
+AS A developer
+I WANT a README generator
+SO THAT I can easily put together a good README for a new project
 
 ## Contents
 
@@ -154,14 +159,6 @@ ${userInput.tests}
 
 ${userInput.email}
 
-## User story:
-
-
-AS A developer
-
-I WANT a README generator
-
-SO THAT I can easily put together a good README for a new project
 `
         );
     console.log("Success!")

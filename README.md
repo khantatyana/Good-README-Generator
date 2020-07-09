@@ -10,6 +10,11 @@ Create a command-line application that dynamically generates a README.md from a 
 '''sh
 node index.js
 '''
+## User story:
+
+AS A developer
+I WANT a README generator
+SO THAT I can easily put together a good README for a new project
 
 ## Contents
 
@@ -61,11 +66,3 @@ This particular repo doesn't require testing.
 
 hanyatan@gmail.com
 
-## User story:
-
-
-AS A developer
-
-I WANT a README generator
-
-SO THAT I can easily put together a good README for a new project
