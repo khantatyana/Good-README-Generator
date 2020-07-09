@@ -9,13 +9,13 @@ async function userPrompts() {
         const userInput = await inquirer.prompt([
             {
                 type: "input",
-                message: "Please enter a badge link",
-                name: "badge"
+                message: "Please enter your project title",
+                name: "title"
             },
             {
                 type: "input",
-                message: "Please enter your project title",
-                name: "title"
+                message: "Please enter a badge link",
+                name: "badge"
             },
             {
                 type: "input",
@@ -146,6 +146,8 @@ ${userInput.tests}
 
 ## User GitHub profile picture
 
+[![Build Status](https://img.shields.io/github/followers/khantatyana?label=Follow&style=social)](https://img.shields.io/github/followers/khantatyana?label=Follow&style=social)
+
 ![Picture](${userInput.picture})
 
 ## User GitHub email
@@ -162,7 +164,7 @@ I WANT a README generator
 SO THAT I can easily put together a good README for a new project
 `
         );
-    
+    console.log("Success!")
     } 
     catch (err) {
         console.log(err);

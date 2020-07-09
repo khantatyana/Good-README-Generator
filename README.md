@@ -1,11 +1,11 @@
 
 # Good-README-Generator
 
-[![Build Status](https://img.shields.io/badge/<Project-title>-<Good-README-Generator>-<red>)](https://img.shields.io/badge/<Project-title>-<Good-README-Generator>-<red>)
+[![Build Status](https://img.shields.io/badge/Project-Good--README--Generator-orange)](https://img.shields.io/badge/Project-Good--README--Generator-orange)
 
 ## Description
 
-Create a command-line application that dynamically generates a README.md from a user's input. The application will be invoked with Using Node.js using ES6+. The application will be invoked with the following command:
+Create a command-line application that dynamically generates a README.md from a user's input. The application will be powered with Using Node.js using ES6+. The application will be invoked with the following command:
         
 '''sh
 node index.js
@@ -41,7 +41,7 @@ https://github.com/khantatyana/Good-README-Generator/blob/master/LICENSE
 
 ## Contributing
 
-Fork it! Create your feature branch. Commit your changes. Push to the branch. Submit a pull request.
+Fork it! <br/> Create your feature branch.<br/> Commit your changes.<br/> Push to the branch.<br/> Submit a pull request.
 
 ## Tests
 
@@ -53,7 +53,9 @@ This particular repo doesn't require testing.
 
 ## User GitHub profile picture
 
-![Picture](https://github.com/khantatyana)
+[![Build Status](https://img.shields.io/github/followers/khantatyana?label=Follow&style=social)](https://img.shields.io/github/followers/khantatyana?label=Follow&style=social)
+
+![Picture](/assets/pic.jpeg)
 
 ## User GitHub email
 
