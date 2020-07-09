@@ -5,8 +5,10 @@
 
 ## Description
 
-[![Package name](https://img.shields.io/npm/v/npm@6.14.4?color=blue
-    )](https://img.shields.io/npm/v/npm@6.14.4?color=blue)
+[![Package name](https://img.shields.io/npm/v/6.14.4?color=blue
+    )](https://img.shields.io/npm/v/6.14.4?color=blue)
+
+![Image Alt Text](/assets/video.gif)
 
 Create a command-line application that dynamically generates a README.md from a user's input. The application will be powered with Using Node.js using ES6+. The application will be invoked with the following command:
         

@@ -98,8 +98,10 @@ ${userInput.badge}
 
 ## Description
 
-[![Package name](https://img.shields.io/npm/v/npm@6.14.4?color=blue
-    )](https://img.shields.io/npm/v/npm@6.14.4?color=blue)
+[![Package name](https://img.shields.io/npm/v/6.14.4?color=blue
+    )](https://img.shields.io/npm/v/6.14.4?color=blue)
+
+![Image Alt Text](/assets/video.gif)
 
 ${userInput.description}
         
