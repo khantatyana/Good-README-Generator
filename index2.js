@@ -1,11 +1,14 @@
 const fs = require("fs");
 const util = require("util");
+const markdown = require("markdown");
 const inquirer = require("inquirer");
+const axios = require("axios");
 
 const writeFileAsync = util.promisify(fs.writeFile);
 userPrompts();
 async function userPrompts() {
     try {
+        
         const userInput = await inquirer.prompt([
             {
                 type: "input",
@@ -80,26 +83,25 @@ async function userPrompts() {
             },
             {
                 type: "input",
-                message: "User GitHub profile picture",
-                name: "picture"
-            },
-            {
-                type: "input",
                 message: "Please enter User GitHub email",
                 name: "email"
             }
               
         ]);
 
+        // axios
+
+        // const queryUrl = `https://api.github.com/users/${userInput.username}`;
+        const {data} = await 
+        axios
+        .get(`https://api.github.com/users/${userInput.username}`)
+        
         writeFileAsync('README.md',`
 # ${userInput.title}
 
 ${userInput.badge}
 
 ## Description
-
-[![Package name](https://img.shields.io/npm/v/6.14.4?color=blue
-    )](https://img.shields.io/npm/v/6.14.4?color=blue)
 
 ![Image Alt Text](/assets/video.gif)
 
@@ -158,15 +160,15 @@ ${userInput.tests}
 
 [![Build Status](https://img.shields.io/github/followers/khantatyana?label=Follow&style=social)](https://img.shields.io/github/followers/khantatyana?label=Follow&style=social)
 
-![Picture](${userInput.picture})
+![Picture](${data.avatar_url})
 
 ## User GitHub email
 
 [email](${userInput.email})
-
-`
-        );
-    console.log("Success!")
+                
+                `
+                        );
+            console.log("Success!")
     } 
     catch (err) {
         console.log(err);
