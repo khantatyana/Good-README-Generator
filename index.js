@@ -1,6 +1,5 @@
 const fs = require("fs");
 const util = require("util");
-const markdown = require("markdown");
 const inquirer = require("inquirer");
 const axios = require("axios");
 
